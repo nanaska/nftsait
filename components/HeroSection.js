@@ -1,5 +1,5 @@
 import sample from "./video-1.mp4"
-
+import {Link} from "react-scroll"
 function HeroSection() {
   return (<div className="background">
     <div className="hero-container" id="firstsection" >
