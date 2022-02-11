@@ -9,11 +9,17 @@ function HeroSection() {
       <h1>NFT AMAZING TRAVEL</h1>
       <p>Чего ты ждешь?</p>
       <div className='hero-btns'>
+      <Link
+                to='thirdsection'
+                spy={true}
+                smooth={true}
+                duration={500} 
+              >
         <button
           className='btns btn btn--outline btn--large'
         >
           Услуги
-        </button>
+        </button></Link>
       </div>
     </div>
   </div>)
