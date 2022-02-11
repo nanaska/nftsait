@@ -1,4 +1,4 @@
-import Services from "./services"
+import Services from "./Services"
 import Link from "next/link"
 import Image from "next/image"
 import sample from "./video-1.mp4"
